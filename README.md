@@ -1,3 +1,18 @@
+# How to dockerize your React project
+Now let’s get down to business. We’ll go through the process step by step and, by the end, you’ll have your React app running inside a Docker container.
+
+Step 1: Set up the React app
+If you already have a React app, you can skip this step. If not, let’s create one:
+
+Run command:	npx create-react-app my-react-app
+
+Build the Docker image: docker build -t my-react-app .
+
+
+Run the container:
+docker run -p 3000:80 my-react-app<img width="1150" height="894" alt="image" src="https://github.com/user-attachments/assets/f8b700ec-9823-41df-8627-0a444d0427d9" />
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
